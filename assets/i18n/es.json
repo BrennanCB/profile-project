@@ -1,0 +1,13 @@
+{
+  "title": "Perfil",
+  "email": "Correo electrónico",
+  "username": "Nombre de usuario",
+  "firstName": "Nombre propio",
+  "lastName": "Apellido",
+  "save": "Ahorrar",
+  "loading_profile": "Cargando perfil...",
+  "saving_profile": "Guardando perfil...",
+  "email_error": "Error en la generación de correo electrónico",
+  "invalid_name": "Nombre inválido",
+  "profile_not_found": "Perfil no encontrado"
+}
