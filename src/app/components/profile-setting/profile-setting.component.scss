@@ -1,0 +1,94 @@
+:host {
+  background: #F5F6FA;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  select {
+    background: none;
+    border: none;
+  }
+}
+
+.card {
+  width: 100%;
+  max-width: 20rem;
+  background: #FFF;
+  height: fit-content;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.12);
+}
+
+#readonly-section {
+  display: flex;
+  flex-direction: column;
+  background: #F5F6FA;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+
+  .label {
+    margin-bottom: 0.25rem;
+  }
+
+  .value {
+    margin-bottom: 0.75rem;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: 0.25rem;
+  }
+
+  input {
+    border-radius: 0.25rem;
+    border: 1px solid #C0C0C4;
+    background: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background: lightseagreen;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+    &[disabled] {
+      background: #666666;
+    }
+  }
+}
+
+.secondary-text {
+  color: #666666;
+  font-size: 0.75rem;
+}
+
+.helper-text {
+  margin-top: 1rem;
+}
